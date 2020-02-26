@@ -1,0 +1,30 @@
+input{
+    background: #fafafa;
+    padding: 9px 10px;
+    text-overflow: ellipsis;
+    border: 1px solid gray;
+    width: 246px;
+    box-sizing: border-box;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 50px;
+    align-items: center;
+    height: 300px;
+}
+
+input[type="submit"] {
+    background: greenyellow;
+    text-align: center;
+}
+
+label {
+    margin-right: -22px;
+    display: flex;
+    align-items: center;
+}
+
